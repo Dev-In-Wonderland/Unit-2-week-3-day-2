@@ -27,12 +27,16 @@ main {
 	align-items: center;
 }
 
+h1{
+    font-size: 1.4rem;
+}
+
 main .list {
-	width: 40%;
+	width: 20%;
 	max-width: 768px;
 	background-color: #c7b363;
 	border: 1px solid #CCC;
-	margin-top: 182px;
+	margin-top: 74px;
 }
 
 main .list .item {
