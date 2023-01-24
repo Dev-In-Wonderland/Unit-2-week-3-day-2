@@ -30,7 +30,7 @@ main {
 main .list {
 	width: 40%;
 	max-width: 768px;
-	background-color: #FFF;
+	background-color: #c7b363;
 	border: 1px solid #CCC;
 	margin-top: 182px;
 }
@@ -62,22 +62,22 @@ main .list .item:hover {
 	outline: none;
 	cursor: pointer;
 
-	background-color: #44AAEE;
+	background-color: #f5dd7b;
 
 	margin: 5px;
 	transition: 0.4s;
 
-	color: #FFF;
+	color: #83580b;
 	font-size: 18px;
 	text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.2);
 	box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.2);
 }
 
 .pagenumbers button:hover {
-	background-color: #44EEAA;
+	background-color: #fde994;
 }
 
 .pagenumbers button.active {
-	background-color: #44EEAA;
+	background-color: #fde994;
 	box-shadow: inset 0px 0px 4px rgba(0, 0, 0, 0.2);
 }
