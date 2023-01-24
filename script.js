@@ -110,4 +110,4 @@ SetupPagination(list_items, pagination_element, rows);
 
 
 
-alert('Sta arrivando la cavalleria!')
+alert('Udite, udite! Sta arrivando la cavalleria!')
