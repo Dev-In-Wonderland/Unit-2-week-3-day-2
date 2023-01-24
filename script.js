@@ -20,14 +20,42 @@ const list_items = [
 	"Item 19",
 	"Item 20",
 	"Item 21",
-	"Item 22"
+	"Item 22",
+	"Item 23",
+	"Item 24",
+	"Item 25",
+	"Item 26",
+	"Item 27",
+	"Item 28",
+	"Item 29",
+	"Item 30",
+	"Item 31",
+	"Item 32",
+	"Item 33",
+	"Item 34",
+	"Item 35",
+	"Item 36",
+	"Item 37",
+	"Item 38",
+	"Item 39",
+	"Item 40",
+	"Item 41",
+	"Item 42",
+	"Item 43",
+	"Item 44",
+	"Item 45",
+	"Item 46",
+	"Item 47",
+	"Item 48",
+	"Item 49",
+	"Item 50"
 ];
 
 const list_element = document.getElementById('list');
 const pagination_element = document.getElementById('pagination');
 
 let current_page = 1;
-let rows = 5;
+let rows = 10;
 
 function DisplayList (items, wrapper, rows_per_page, page) {
 	wrapper.innerHTML = "";
